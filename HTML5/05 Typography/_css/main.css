@@ -1,5 +1,15 @@
 @charset "UTF-8";
 
+
+@font-face{
+	font-family:Alex;
+	src: url("../_fonts/AlexBrush-Regular.ttf");
+}
+
+h1{
+	font-family: Alex, serif;
+}
+
 html, body {
 	margin: 0px;
 	padding: 0px;
@@ -252,7 +262,7 @@ ul#baseNav ul.subNav li a.current{
 }
 /* main content region ^6c */
 #mainContent h1{
-	font: normal 2.5em Georgia, "Times New Roman", Times, serif;
+	font: Alex, serif;
 	margin: .5em 0 .25em;
 	letter-spacing: -1px;
 }

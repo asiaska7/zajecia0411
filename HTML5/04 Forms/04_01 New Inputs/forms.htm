@@ -82,19 +82,19 @@
       </header>
       <form id="riderReview" method="post" action="#">
         <label for="trailName">Trail name:</label>
-        <input type="text" name="name" id="name" tabindex="10">
+        <input type="text" name="name" id="name" tabindex="10" autofocus>
         <label for="name">Name:</label>
         <input type="text" name="name2" id="name2" tabindex="20">
         <label for="email">Email:</label>
-        <input type="text" name="email" id="email" tabindex="30">
+        <input type="email" name="email" id="email" tabindex="30">
         <label for="phone">Phone:</label>
-        <input type="text" name="phone" id="phone" tabindex="30">
+        <input type="tel" name="phone" id="phone" tabindex="30" placeholder="phone">
         <label for="url">Website:</label>
-        <input type="text" name="url" id="url" tabindex="40">
+        <input type="url" name="url" id="url" tabindex="40">
         <label for="tripDate">Date of trip:</label>
-        <input type="text" name="tripDate" id="tripDate" tabindex="50">
+        <input type="date" name="tripDate" id="tripDate" tabindex="50">
         <label for="riders">Number of riders:</label>
-        <input type="text" name="riders" id="riders" tabindex="60">
+        1<input type="range" value="1" name="riders" id="riders" tabindex="60">20
         <label for="review">Review:<br>
         </label>
         <textarea name="review" id="review" tabindex="70" cols="45" rows="10"></textarea>

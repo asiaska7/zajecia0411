@@ -1,0 +1,21 @@
+#container{
+    width:968px;
+    background-color:#fff;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow: hidden;
+}
+#main_image{
+    background-image: url("img/main.jpg");
+    background-repeat: no-repeat;
+    width: 968px;
+    height: 376px;
+}
+#left_column, #center_column, #right_column {
+    width: 316px;
+    float: left;
+}
+#center_column{
+    margin: 0, 10px;
+}
